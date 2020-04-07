@@ -4,7 +4,7 @@
   "description": "create secret santa matches given names and email addresses",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "xo && nyc ava"
   },
   "keywords": [
     "secret-santa",
@@ -32,9 +32,6 @@
   "xo": {
     "envs": [
       "node"
-    ],
-    "extends": [
-      "xo-react"
     ],
     "rules": {
       "unicorn/filename-case": [
