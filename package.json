@@ -10,6 +10,7 @@
     "secret-santa",
     "koa",
     "nodejs",
+    "Javascript",
     "xo",
     "ava",
     "email"
@@ -27,5 +28,35 @@
     "eslint-plugin-unicorn": "^18.0.1",
     "nyc": "^15.0.1",
     "xo": "^0.28.3"
+  },
+  "xo": {
+    "envs": [
+      "node"
+    ],
+    "extends": [
+      "xo-react"
+    ],
+    "rules": {
+      "unicorn/filename-case": [
+        "error",
+        {
+          "case": "camelCase"
+        }
+      ]
+    },
+    "plugins": [
+      "unicorn"
+    ],
+    "parser": "babel-eslint"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "src/**/*"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   }
 }
