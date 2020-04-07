@@ -4,8 +4,8 @@
 
 An API that generates secret santa matches given arrays of objects containing users and their emails.
 
-# Installing
+## Installing
 Run `npm i` to install the project and its dependencies.
 
-# Testing
+## Testing
 Run `npm test` to unit test using `xo` and `ava`
