@@ -1,0 +1,9 @@
+# Node Dependencies
+node_modules/
+
+# coverage reporters
+.nyc_output
+coverage/
+
+# Zeit now
+.now
